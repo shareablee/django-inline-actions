@@ -24,6 +24,7 @@ classifiers = [
   "Programming Language :: Python :: 3.9",
   "Programming Language :: Python :: 3.10",
   "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
   "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 
@@ -34,7 +35,7 @@ packages = [
 [tool.poetry.dependencies]
 python = ">=3.8, <4.0"
 
-django = ">=3.0, <4.3"
+django = ">=3.0, <5.10"
 
 [tool.poetry.dev-dependencies]
 autoflake = "^1.4"
